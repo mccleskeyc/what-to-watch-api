@@ -1,24 +1,7 @@
-# README
+# What to Watch
+Picking a movie can be a daunting task, and What to Watch aims to make it easier. What to Watch takes the experience of getting movie recommendations from friends to the next level by getting movie recommendations from everyone. User-recommended movies are saved to the API so that all you have to do is decide what genre you want to watch and browse that list until you find the one that makes you say "That's exactly what I want to watch tonight!"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Using What to Watch
+- Fork and clone both this repository *and* the [frontend repository](https://github.com/mccleskeyc/what-to-watch-frontend)
+- In the backend, seed the data with `rails db:seed` and start the server with `rails s` in the terminal. 
+- In the frontend, run `npm start` in the terminal. This should open the application in your browser, but if it does not, navigate to the local address provided in the terminal (likely https://github.com/mccleskeyc/what-to-watch-api)
